@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* defendEarthAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* defendEarthAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* defendEarthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* defendEarthViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* defendEarthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* defendEarthViewController.m */; };
+		40A6391815575A3900E23899 /* highScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A6391715575A3900E23899 /* highScore.m */; };
+		40A6391B15575A7C00E23899 /* highScore.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A6391A15575A7C00E23899 /* highScore.xib */; };
+		4C2D9FC1154F17E700AD2893 /* welcome.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D9FC0154F17E700AD2893 /* welcome.m */; };
+		4C2D9FC6154F18C500AD2893 /* settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D9FC5154F18C500AD2893 /* settings.m */; };
+		4C2DA00B154F232D00AD2893 /* settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DA00A154F232D00AD2893 /* settings.xib */; };
+		4C2DA011154F23D400AD2893 /* welcome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DA010154F23D400AD2893 /* welcome.xib */; };
+		4C2DA013154F23D800AD2893 /* highScores.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DA012154F23D800AD2893 /* highScores.xib */; };
+		4C2DA01F154F250000AD2893 /* metal-floor-with-stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DA01E154F250000AD2893 /* metal-floor-with-stars.png */; };
+		4C2DA02E154F26F800AD2893 /* stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DA02D154F26F800AD2893 /* stars.png */; };
+		4C2DA06D154F35B800AD2893 /* gamePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2DA06B154F35B800AD2893 /* gamePlay.m */; };
+		4C2DA06E154F35B800AD2893 /* gamePlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DA06C154F35B800AD2893 /* gamePlay.xib */; };
+		4C2DA0BC1551D2FC00AD2893 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DA0BB1551D2FC00AD2893 /* globe.png */; };
+		4C2DA0BF1551D32D00AD2893 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DA0BD1551D32D00AD2893 /* explosion.png */; };
+		4C2DA0C01551D32D00AD2893 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DA0BE1551D32D00AD2893 /* rocket.png */; };
+		4C2DA0C21551D36000AD2893 /* explosion_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DA0C11551D36000AD2893 /* explosion_1.wav */; };
+		4C2DA14F155306B400AD2893 /* gameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2DA14D155306B400AD2893 /* gameOver.m */; };
+		4C2DA150155306B400AD2893 /* gameOver.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DA14E155306B400AD2893 /* gameOver.xib */; };
+		4C94D58D1556FB9B00D4B25F /* rocket2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C94D58B1556FB9B00D4B25F /* rocket2.png */; };
+		4C94D58E1556FB9B00D4B25F /* rocket3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C94D58C1556FB9B00D4B25F /* rocket3.png */; };
+		4C94D5921557352500D4B25F /* asteroid1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C94D58F1557352500D4B25F /* asteroid1.png */; };
+		4C94D5931557352500D4B25F /* asteroid2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C94D5901557352500D4B25F /* asteroid2.png */; };
+		4C94D5941557352500D4B25F /* asteroid3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C94D5911557352500D4B25F /* asteroid3.png */; };
+		4C94D59A155758C700D4B25F /* globeRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C94D598155758C700D4B25F /* globeRed.png */; };
+		4C94D59B155758C700D4B25F /* globeYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C94D599155758C700D4B25F /* globeYellow.png */; };
+		4CAC7FB2154EF41600509257 /* disappear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC7FAC154EF41600509257 /* disappear.wav */; };
+		4CAC7FB3154EF41600509257 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC7FAD154EF41600509257 /* hit.wav */; };
+		4CAC7FB4154EF41600509257 /* miss.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC7FAE154EF41600509257 /* miss.wav */; };
+		4CAC7FB7154EF41600509257 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC7FB1154EF41600509257 /* click.mp3 */; };
+		4CAC7FBB154EF44100509257 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAC7FBA154EF44100509257 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* defendEarthAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defendEarthAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* defendEarthAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = defendEarthAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* defendEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = defendEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* defendEarthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = defendEarthViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* defendEarthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defendEarthViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* defendEarthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = defendEarthViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* defendEarth_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defendEarth_Prefix.pch; sourceTree = "<group>"; };
+		40A6391615575A3900E23899 /* highScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = highScore.h; sourceTree = "<group>"; };
+		40A6391715575A3900E23899 /* highScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = highScore.m; sourceTree = "<group>"; };
+		40A6391A15575A7C00E23899 /* highScore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = highScore.xib; sourceTree = "<group>"; };
+		4C2D9FBF154F17E700AD2893 /* welcome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = welcome.h; sourceTree = "<group>"; };
+		4C2D9FC0154F17E700AD2893 /* welcome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = welcome.m; sourceTree = "<group>"; };
+		4C2D9FC4154F18C500AD2893 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		4C2D9FC5154F18C500AD2893 /* settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settings.m; sourceTree = "<group>"; };
+		4C2DA00A154F232D00AD2893 /* settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = settings.xib; sourceTree = "<group>"; };
+		4C2DA010154F23D400AD2893 /* welcome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = welcome.xib; sourceTree = "<group>"; };
+		4C2DA012154F23D800AD2893 /* highScores.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = highScores.xib; sourceTree = "<group>"; };
+		4C2DA01E154F250000AD2893 /* metal-floor-with-stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "metal-floor-with-stars.png"; sourceTree = "<group>"; };
+		4C2DA02D154F26F800AD2893 /* stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stars.png; sourceTree = "<group>"; };
+		4C2DA06A154F35B800AD2893 /* gamePlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gamePlay.h; sourceTree = "<group>"; };
+		4C2DA06B154F35B800AD2893 /* gamePlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gamePlay.m; sourceTree = "<group>"; };
+		4C2DA06C154F35B800AD2893 /* gamePlay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = gamePlay.xib; path = Classes/gamePlay.xib; sourceTree = "<group>"; };
+		4C2DA0BB1551D2FC00AD2893 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		4C2DA0BD1551D32D00AD2893 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
+		4C2DA0BE1551D32D00AD2893 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		4C2DA0C11551D36000AD2893 /* explosion_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion_1.wav; sourceTree = "<group>"; };
+		4C2DA14C155306B400AD2893 /* gameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameOver.h; sourceTree = "<group>"; };
+		4C2DA14D155306B400AD2893 /* gameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameOver.m; sourceTree = "<group>"; };
+		4C2DA14E155306B400AD2893 /* gameOver.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = gameOver.xib; path = Classes/gameOver.xib; sourceTree = "<group>"; };
+		4C94D58B1556FB9B00D4B25F /* rocket2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket2.png; sourceTree = "<group>"; };
+		4C94D58C1556FB9B00D4B25F /* rocket3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket3.png; sourceTree = "<group>"; };
+		4C94D58F1557352500D4B25F /* asteroid1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid1.png; sourceTree = "<group>"; };
+		4C94D5901557352500D4B25F /* asteroid2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid2.png; sourceTree = "<group>"; };
+		4C94D5911557352500D4B25F /* asteroid3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid3.png; sourceTree = "<group>"; };
+		4C94D598155758C700D4B25F /* globeRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globeRed.png; sourceTree = "<group>"; };
+		4C94D599155758C700D4B25F /* globeYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globeYellow.png; sourceTree = "<group>"; };
+		4CAC7FAC154EF41600509257 /* disappear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = disappear.wav; sourceTree = "<group>"; };
+		4CAC7FAD154EF41600509257 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		4CAC7FAE154EF41600509257 /* miss.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = miss.wav; sourceTree = "<group>"; };
+		4CAC7FB1154EF41600509257 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		4CAC7FBA154EF44100509257 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* defendEarth-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "defendEarth-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				4CAC7FBB154EF44100509257 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* defendEarthAppDelegate.h */,
+				1D3623250D0F684500981E51 /* defendEarthAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* defendEarthViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* defendEarthViewController.m */,
+				4C2D9FBF154F17E700AD2893 /* welcome.h */,
+				4C2D9FC0154F17E700AD2893 /* welcome.m */,
+				4C2D9FC4154F18C500AD2893 /* settings.h */,
+				4C2D9FC5154F18C500AD2893 /* settings.m */,
+				4C2DA06A154F35B800AD2893 /* gamePlay.h */,
+				4C2DA06B154F35B800AD2893 /* gamePlay.m */,
+				4C2DA14C155306B400AD2893 /* gameOver.h */,
+				4C2DA14D155306B400AD2893 /* gameOver.m */,
+				40A6391615575A3900E23899 /* highScore.h */,
+				40A6391715575A3900E23899 /* highScore.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* defendEarth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* defendEarth_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C94D598155758C700D4B25F /* globeRed.png */,
+				4C94D599155758C700D4B25F /* globeYellow.png */,
+				4C94D58F1557352500D4B25F /* asteroid1.png */,
+				4C94D5901557352500D4B25F /* asteroid2.png */,
+				4C94D5911557352500D4B25F /* asteroid3.png */,
+				4C94D58B1556FB9B00D4B25F /* rocket2.png */,
+				4C94D58C1556FB9B00D4B25F /* rocket3.png */,
+				4C2DA0C11551D36000AD2893 /* explosion_1.wav */,
+				4CAC7FAC154EF41600509257 /* disappear.wav */,
+				4CAC7FAD154EF41600509257 /* hit.wav */,
+				4CAC7FAE154EF41600509257 /* miss.wav */,
+				4CAC7FB1154EF41600509257 /* click.mp3 */,
+				4C2DA0BD1551D32D00AD2893 /* explosion.png */,
+				4C2DA0BE1551D32D00AD2893 /* rocket.png */,
+				4C2DA0BB1551D2FC00AD2893 /* globe.png */,
+				4C2DA02D154F26F800AD2893 /* stars.png */,
+				4C2DA01E154F250000AD2893 /* metal-floor-with-stars.png */,
+				40A6391A15575A7C00E23899 /* highScore.xib */,
+				4C2DA14E155306B400AD2893 /* gameOver.xib */,
+				2899E5210DE3E06400AC0155 /* defendEarthViewController.xib */,
+				4C2DA010154F23D400AD2893 /* welcome.xib */,
+				4C2DA012154F23D800AD2893 /* highScores.xib */,
+				4C2DA00A154F232D00AD2893 /* settings.xib */,
+				4C2DA06C154F35B800AD2893 /* gamePlay.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* defendEarth-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				4CAC7FBA154EF44100509257 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* defendEarth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "defendEarth" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = defendEarth;
+			productName = defendEarth;
+			productReference = 1D6058910D05DD3D006BFB54 /* defendEarth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "defendEarth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* defendEarth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* defendEarthViewController.xib in Resources */,
+				4CAC7FB2154EF41600509257 /* disappear.wav in Resources */,
+				4CAC7FB3154EF41600509257 /* hit.wav in Resources */,
+				4CAC7FB4154EF41600509257 /* miss.wav in Resources */,
+				4CAC7FB7154EF41600509257 /* click.mp3 in Resources */,
+				4C2DA00B154F232D00AD2893 /* settings.xib in Resources */,
+				4C2DA011154F23D400AD2893 /* welcome.xib in Resources */,
+				4C2DA013154F23D800AD2893 /* highScores.xib in Resources */,
+				4C2DA01F154F250000AD2893 /* metal-floor-with-stars.png in Resources */,
+				4C2DA02E154F26F800AD2893 /* stars.png in Resources */,
+				4C2DA06E154F35B800AD2893 /* gamePlay.xib in Resources */,
+				4C2DA0BC1551D2FC00AD2893 /* globe.png in Resources */,
+				4C2DA0BF1551D32D00AD2893 /* explosion.png in Resources */,
+				4C2DA0C01551D32D00AD2893 /* rocket.png in Resources */,
+				4C2DA0C21551D36000AD2893 /* explosion_1.wav in Resources */,
+				4C2DA150155306B400AD2893 /* gameOver.xib in Resources */,
+				4C94D58D1556FB9B00D4B25F /* rocket2.png in Resources */,
+				4C94D58E1556FB9B00D4B25F /* rocket3.png in Resources */,
+				4C94D5921557352500D4B25F /* asteroid1.png in Resources */,
+				4C94D5931557352500D4B25F /* asteroid2.png in Resources */,
+				4C94D5941557352500D4B25F /* asteroid3.png in Resources */,
+				4C94D59A155758C700D4B25F /* globeRed.png in Resources */,
+				4C94D59B155758C700D4B25F /* globeYellow.png in Resources */,
+				40A6391B15575A7C00E23899 /* highScore.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* defendEarthAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* defendEarthViewController.m in Sources */,
+				4C2D9FC1154F17E700AD2893 /* welcome.m in Sources */,
+				4C2D9FC6154F18C500AD2893 /* settings.m in Sources */,
+				4C2DA06D154F35B800AD2893 /* gamePlay.m in Sources */,
+				4C2DA14F155306B400AD2893 /* gameOver.m in Sources */,
+				40A6391815575A3900E23899 /* highScore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = defendEarth_Prefix.pch;
+				INFOPLIST_FILE = "defendEarth-Info.plist";
+				PRODUCT_NAME = defendEarth;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = defendEarth_Prefix.pch;
+				INFOPLIST_FILE = "defendEarth-Info.plist";
+				PRODUCT_NAME = defendEarth;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "defendEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "defendEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

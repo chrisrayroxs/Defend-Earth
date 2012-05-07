@@ -1,0 +1,3 @@
+/Users/Stud4/Downloads/defendEarth-2/Classes/defendEarthViewController.m: In function '-[defendEarthViewController beginastroidAnimation:]':
+/Users/Stud4/Downloads/defendEarth-2/Classes/defendEarthViewController.m:407: warning: unused variable 'y'
+/Users/Stud4/Downloads/defendEarth-2/Classes/defendEarthViewController.m:406: warning: unused variable 'x'

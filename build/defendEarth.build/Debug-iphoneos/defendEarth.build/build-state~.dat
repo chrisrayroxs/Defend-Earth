@@ -1,0 +1,592 @@
+TdefendEarth
+v7
+r0
+t357924924.200487
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D5EBED1000000000022E2B0
+t1298054865
+s2286256
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004D5EBEC500000000000007D0
+t1298054853
+s2000
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreAnimation.h
+c000000004D54D4960000000000000364
+t1297405078
+s868
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/defendEarthAppDelegate.h
+c000000004F9EBC3A00000000000001FE
+t1335802938
+s510
+i<UIKit/UIKit.h>
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/defendEarthAppDelegate.m
+c000000004FA2CA6A0000000000000B53
+t1336068714
+s2899
+i"defendEarthAppDelegate.h"
+i"defendEarthViewController.h"
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/defendEarthViewController.h
+c000000004FA2CAD700000000000005EB
+t1336068823
+s1515
+i<UIKit/UIKit.h>
+i<QuartzCore/CoreAnimation.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/defendEarthViewController.m
+c000000004FA547B100000000000034A3
+t1336231857
+s13475
+i"defendEarthViewController.h"
+i"welcome.h"
+i"settings.h"
+i"highScores.h"
+i"gamePlay.h"
+i"gameOver.h"
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/gameOver.h
+c000000004FA2CF3400000000000000DE
+t1336069940
+s222
+i<UIKit/UIKit.h>
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/gameOver.m
+c000000004FA547F6000000000000074C
+t1336231926
+s1868
+i"gameOver.h"
+i"defendEarthAppDelegate.h"
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/gameOver.xib
+c000000004FA321110000000000002175
+t1336090897
+s8565
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/gamePlay.h
+c000000004F9EFE3800000000000000DF
+t1335819832
+s223
+i<UIKit/UIKit.h>
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/gamePlay.m
+c000000004FA31F900000000000000566
+t1336090512
+s1382
+i"gamePlay.h"
+i"defendEarthAppDelegate.h"
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/gamePlay.xib
+c000000004F9EFE380000000000001853
+t1335819832
+s6227
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/highScores.h
+c000000004F9EFD8D00000000000000E3
+t1335819661
+s227
+i<UIKit/UIKit.h>
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/highScores.m
+c000000004FA31ED300000000000004C0
+t1336090323
+s1216
+i"highScores.h"
+i"defendEarthAppDelegate.h"
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/settings.h
+c000000004F9EE28A00000000000000DF
+t1335812746
+s223
+i<UIKit/UIKit.h>
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/settings.m
+c000000004FA31EFE00000000000004B0
+t1336090366
+s1200
+i"settings.h"
+i"defendEarthAppDelegate.h"
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/welcome.h
+c000000004F9EE06700000000000000DD
+t1335812199
+s221
+i<UIKit/UIKit.h>
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/welcome.m
+c000000004FA35BA00000000000000857
+t1336105888
+s2135
+i"welcome.h"
+i"defendEarthAppDelegate.h"
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/MainWindow.xib
+c000000004F9EEDB20000000000005B3A
+t1335815602
+s23354
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app.dSYM
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/Info.plist
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/MainWindow.nib
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/PkgInfo
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/ResourceRules.plist
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/click.mp3
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/defendEarth
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/defendEarthViewController.nib
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/disappear.wav
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/explosion.png
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/explosion_1.wav
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/gameOver.nib
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/gamePlay.nib
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/globe.png
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/highScores.nib
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/hit.wav
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/metal-floor-with-stars.png
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/miss.wav
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/rocket.png
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/settings.nib
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/stars.png
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/touched.png
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/untouched.png
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/welcome.nib
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/defendEarth
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/defendEarth.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/defendEarthAppDelegate.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/defendEarthViewController.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/gameOver.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/gamePlay.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/highScores.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/settings.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/welcome.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/defendEarth
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/defendEarth.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/defendEarthAppDelegate.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/defendEarthViewController.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/gameOver.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/gamePlay.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/highScores.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/settings.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/welcome.o
+t2
+s0
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/click.mp3
+c000000004A6DD4BE00000000000008A8
+t1248711870
+s2216
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/defendEarthViewController.xib
+c000000004F9EBCA400000000000019CF
+t1335803044
+s6607
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/defendEarth_Prefix.pch
+c000000004F9EBC3A00000000000000BF
+t1335802938
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/disappear.wav
+c000000004F7B236A0000000000003AC6
+t1333470058
+s15046
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/explosion.png
+c000000004F9982D60000000000011985
+t1335460566
+s72069
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/explosion_1.wav
+c000000004F99957B00000000000A0000
+t1335465339
+s655360
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/globe.png
+c000000004F9B00510000000000005EC9
+t1335558225
+s24265
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/highScores.xib
+c000000004F9EEBCB00000000000019CE
+t1335815115
+s6606
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/hit.wav
+c000000004F7B2216000000000000625C
+t1333469718
+s25180
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/main.m
+c000000004F9EBC3A0000000000000174
+t1335802938
+s372
+i<UIKit/UIKit.h>
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/metal-floor-with-stars.png
+c000000004F9B031A000000000000D0B6
+t1335558938
+s53430
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/miss.wav
+c000000004F7B22B40000000000003248
+t1333469876
+s12872
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/rocket.png
+c000000004F9976100000000000002B5E
+t1335457296
+s11102
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/settings.xib
+c000000004F9EF6060000000000001A29
+t1335817734
+s6697
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/stars.png
+c000000004F9EEF6B00000000000010E2
+t1335816043
+s4322
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/touched.png
+c000000004F79F90900000000000026CF
+t1333393673
+s9935
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/untouched.png
+c000000004F79F8E200000000000019F6
+t1333393634
+s6646
+
+N/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/welcome.xib
+c000000004F9EF891000000000000218C
+t1335818385
+s8588
+
+N/var/folders/3D/3DDr97V+G3C1ROezF-g3nU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/defendEarth_Prefix-bvwweuwciozqafhasrdxxwkrsluw/defendEarth_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/3D/3DDr97V+G3C1ROezF-g3nU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/defendEarth_Prefix-fkclyqaoyrwqmyduvynerxcavnis/defendEarth_Prefix.pch.gch
+t2
+s0
+
+NdefendEarth-Info.plist
+c000000004F9EBC3A000000000000038D
+t1335802938
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies357924925#357924925#0(133"[BEROR]Code Sign error: The identity 'iPhone Developer' doesn't match any valid certificate/private key pair in the default keychain1(4@125"Code Sign error: The identity 'iPhone Developer' doesn't match any valid certificate/private key pair in the default keychain357924925#18446744073709551615#0#0(1@0"0(0#1#0"8603793984#0"0#
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/defendEarthAppDelegate.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/defendEarthAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/defendEarthViewController.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/defendEarthViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/gameOver.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/gameOver.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/gamePlay.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/gamePlay.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/highScores.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/highScores.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/main.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/settings.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/settings.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/welcome.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/welcome.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/defendEarthAppDelegate.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/defendEarthAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/defendEarthViewController.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/defendEarthViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/gameOver.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/gameOver.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/gamePlay.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/gamePlay.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/highScores.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/highScores.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/main.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/settings.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/settings.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/welcome.o "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/welcome.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/gameOver.xib"
+r0
+
+CCompileXIB "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/Classes/gamePlay.xib"
+r0
+
+CCompileXIB "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/defendEarthViewController.xib"
+r0
+
+CCompileXIB "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/highScores.xib"
+r0
+
+CCompileXIB "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/settings.xib"
+r0
+
+CCompileXIB "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/welcome.xib"
+r0
+
+CCopyPNGFile "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/explosion.png" explosion.png
+r0
+
+CCopyPNGFile "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/globe.png" globe.png
+r0
+
+CCopyPNGFile "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/metal-floor-with-stars.png" metal-floor-with-stars.png
+r0
+
+CCopyPNGFile "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/rocket.png" rocket.png
+r0
+
+CCopyPNGFile "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/stars.png" stars.png
+r0
+
+CCopyPNGFile "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/touched.png" touched.png
+r0
+
+CCopyPNGFile "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/untouched.png" untouched.png
+r0
+
+CCpResource build/Debug-iphoneos/defendEarth.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+r0
+
+CCpResource build/Debug-iphoneos/defendEarth.app/click.mp3 click.mp3
+r0
+
+CCpResource build/Debug-iphoneos/defendEarth.app/disappear.wav disappear.wav
+r0
+
+CCpResource build/Debug-iphoneos/defendEarth.app/explosion_1.wav explosion_1.wav
+r0
+
+CCpResource build/Debug-iphoneos/defendEarth.app/hit.wav hit.wav
+r0
+
+CCpResource build/Debug-iphoneos/defendEarth.app/miss.wav miss.wav
+r0
+
+CCreateUniversalBinary "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/defendEarth" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app.dSYM" "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/defendEarth"
+r0
+
+CLd "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv6/defendEarth" normal armv6
+r0
+
+CLd "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/defendEarth.build/Debug-iphoneos/defendEarth.build/Objects-normal/armv7/defendEarth" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app/Info.plist" defendEarth-Info.plist
+r0
+
+CProcessPCH /var/folders/3D/3DDr97V+G3C1ROezF-g3nU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/defendEarth_Prefix-bvwweuwciozqafhasrdxxwkrsluw/defendEarth_Prefix.pch.gch defendEarth_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/3D/3DDr97V+G3C1ROezF-g3nU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/defendEarth_Prefix-fkclyqaoyrwqmyduvynerxcavnis/defendEarth_Prefix.pch.gch defendEarth_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/reynoldschristopher/Documents/Christopher's Documents/Dropbox/school/MDP/final project/defendEarth/build/Debug-iphoneos/defendEarth.app"
+r0
+
